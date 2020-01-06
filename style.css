@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg:hover {
+    transform: scale(1.5);
+}
+
+svg:active #check-mark {
+    stroke: #55D21A;
+}
+
+svg:hover,
+svg:active #check-mark {
+    transition-duration: .3s;
+}
